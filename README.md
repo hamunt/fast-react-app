@@ -1,8 +1,9 @@
-# React + Vite
+# Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple react application that enable pizza business to take in orders from customers with the overhead of customers having to create user accounts.
 
-Currently, two official plugins are available:
+The app utilizes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> react router for routing and remote state management
+> redux toolkit for ui state management
+> tailwindcss for styling
