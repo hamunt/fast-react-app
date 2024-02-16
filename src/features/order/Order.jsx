@@ -11,6 +11,7 @@ import {
 import OrderItem from "./OrderItem";
 import { useEffect } from "react";
 import UpdateOrder from "./UpdateOrder";
+// import CancelOrder from "./CancelOrder";
 
 function Order() {
   const order = useLoaderData();
@@ -89,7 +90,8 @@ function Order() {
           To pay on delivery: {formatCurrency(orderPrice + priorityPrice)}
         </p>
       </div>
-      {!priority && <UpdateOrder order={order} />}
+      {!priority && <UpdateOrder />}
+      {/* <CancelOrder /> */}
     </div>
   );
 }

@@ -52,3 +52,19 @@ export async function updateOrder(id, updateObj) {
     throw Error("Failed updating your order");
   }
 }
+/* TO BE IMPLEMENT LATER FOR CANCELING AN ORDER
+
+export async function deleteOrder(id) {
+  try {
+    const res = await fetch(`${API_URL}/order/${id}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (!res.ok) throw Error("Cannot delete order");
+  } catch (err) {
+    throw Error("Failed to cancel the order");
+  }
+}
+*/
